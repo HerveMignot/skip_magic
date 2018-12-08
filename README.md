@@ -3,13 +3,13 @@ IPython / Jupyter skip magic command to control cell execution programmatically
 
 Place on first line of cell to control execution.
 
-  %skip True
-  print(42)
+    %skip True
+    print(42)
 
 skips cell execution.
 
-  %skip $run_flags['steptype'] is False
-  print(42)
+    %skip $run_flags['steptype'] is False
+    print(42)
 
 to evaluate `run_flags` variable as skip condition.
 
